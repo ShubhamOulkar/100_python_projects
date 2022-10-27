@@ -1,5 +1,5 @@
 # 100_python_projects
 ## This is a repo for Top 100 python projects for beginners.  
-**1) [Name Generator (Beginner)](Name_Generator.py)**
+**[1) Name Generator (Beginner)](Name_Generator.py)**
 
-**2) [Tip calculator](Tip_Calculator.py)**
+**[2) Tip calculator](Tip_Calculator.py)**
