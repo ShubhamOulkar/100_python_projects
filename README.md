@@ -7,3 +7,5 @@
 **[3) BMI Calculator (Beginner)](BMI_calculator.py)**
 
 **[4) Life in weeks (Beginner)](Life_in_weeks.py)**
+
+**[5) Odd Even number](Odd_Even_Number.py)**
