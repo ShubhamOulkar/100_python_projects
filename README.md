@@ -18,7 +18,7 @@
 
 **[9) Rock Paper Scissors Game (Beginner) ](rock_paper_scissors.py)**
 
-**[10) (Beginner) ]()**
+**[10) Roulette - Who will pay the bill? (Beginner) ](Bank_roulette-who_will_pay_the_bill.py)**
 **[11) (Beginner) ]()**
 **[12) (Beginner) ]()**
 **[13) (Beginner) ]()**
