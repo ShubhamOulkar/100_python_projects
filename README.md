@@ -8,4 +8,6 @@
 
 **[4) Life in weeks (Beginner)](Life_in_weeks.py)**
 
-**[5) Odd Even number](Odd_Even_Number.py)**
+**[5) Odd Even number (Beginner)](Odd_Even_Number.py)**
+
+**[6) Leap Year Checker (Beginner) ](Leap_year.py)**
