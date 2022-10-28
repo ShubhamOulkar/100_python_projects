@@ -50,4 +50,4 @@ else:
     print(f"your choice: {art[you - 1]}\n computer choice: {art[computer - 1]}")
     print("You Lose!")
 
-print("---------------- shubhuoulkar@gmail.com ------------------")
+print("---------------- oulkarshubhu@gmail.com ------------------")

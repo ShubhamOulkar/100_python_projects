@@ -31,4 +31,4 @@ elif 50 >= love_score >= 40:
 else :
     print(f"Your score is {love_score}.")
 
-print("\n---------- shubhuoulkar@gmail.com ----------")
+print("\n---------- oulkarshubhu@gmail.com ----------")

@@ -17,4 +17,4 @@ elif BMI <= 35:
 else:
     print(f"Your BMI is {BMI} and you are critically obese.")
 
-print("\n---------- shubhuoulkar@gmail.com ----------")
+print("\n---------- oulkarshubhu@gmail.com ----------")
