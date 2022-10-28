@@ -6,8 +6,8 @@
 **[4) Life in weeks (Beginner)](Life_in_weeks.py)**
 **[5) Odd Even number (Beginner)](Odd_Even_Number.py)**
 **[6) Leap Year Checker (Beginner) ](Leap_year.py)**
-**[7) Pizza Order Bill Generator (Beginner) ]()**
-**[8) (Beginner) ]()**
+**[7) Pizza Order Bill Generator (Beginner) ](Pizza_Order.py)**
+**[8) Love Calculator (Beginner) ](Love_Calculator.py)**
 **[9) (Beginner) ]()**
 **[10) (Beginner) ]()**
 **[11) (Beginner) ]()**
