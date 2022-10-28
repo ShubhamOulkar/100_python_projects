@@ -4,6 +4,6 @@
 
 **[2) Tip calculator (Beginner)](Tip_Calculator.py)**
 
-**[3) BMI Calculator](BMI_calculator.py)**
+**[3) BMI Calculator (Beginner)](BMI_calculator.py)**
 
-**[4) Life in weeks](Life_in_weeks.py)**
+**[4) Life in weeks (Beginner)](Life_in_weeks.py)**
