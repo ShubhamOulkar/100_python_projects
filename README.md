@@ -16,7 +16,8 @@
 
 **[8) Love Calculator (Beginner) ](Love_Calculator.py)**
 
-**[9) (Beginner) ]()**
+**[9) Rock Paper Scissors Game (Beginner) ](rock_paper_scissors.py)**
+
 **[10) (Beginner) ]()**
 **[11) (Beginner) ]()**
 **[12) (Beginner) ]()**
