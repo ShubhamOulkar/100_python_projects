@@ -2,6 +2,9 @@
 # a = input("Type two digit number: ")
 # print("sum =", int(a[0])+int(a[1]))
 # print(type(a))
+print("""----------------------------------------------------------
+             Tip Calculator
+----------------------------------------------------------""")
 
 print("Welcome to the tip Calculator!")
 bill = float(input("What was the total bill? $"))
