@@ -18,4 +18,4 @@ password = words + numb + character
 random.shuffle(password)
 print(f"Generated Password : {''.join(password)}")
 
-print("-------------------- oulkarshubhu@gmail.com -------------------")
+print("\n-------------------- oulkarshubhu@gmail.com -------------------")
