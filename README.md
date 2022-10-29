@@ -1,5 +1,5 @@
 # 100_python_projects
-## This is a repo for python projects.  
+
 **[1) Name Generator (Beginner)](Name_Generator.py)**
 
 **[2) Tip calculator (Beginner)](Tip_Calculator.py)**
@@ -22,8 +22,11 @@
 
 **[11) Treasure Map (Beginner) ](Treasure_map.py)**
 
-**[12) (Beginner) ]()**
-**[13) (Beginner) ]()**
-**[14) (Beginner) ]()**
+**[12) Password Generator (Beginner) ](password_generator.py)**
+
+**[13) For loops in python (Beginner) ](for_loops_in_python.py)**
+
+**[14) Fizz Buzz challenge (Beginner) ](fizz_buzz.py)**
+
 **[15) (Beginner) ]()**
 
