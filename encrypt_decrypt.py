@@ -6,9 +6,9 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
+
 def encode_decode(direction, text, shift):
-    if direction =="encode":
-        new_position = 0
+    if direction == "encode":
         encoder = []
         for i in text:
             new_position = int(alphabet.index(i)) + shift
@@ -17,7 +17,6 @@ def encode_decode(direction, text, shift):
             encoder += alphabet[new_position]
         print(f"Encoded Message: {''.join(encoder)}")
     elif direction == "decode":
-        old_position = 0
         decoder = []
         for i in text:
             old_position = int(alphabet.index(i)) - shift
@@ -26,5 +25,6 @@ def encode_decode(direction, text, shift):
             decoder += alphabet[old_position]
         print(f"Decoded Message: {''.join(decoder)}")
 
-encode_decode(direction,text,shift)
+
+encode_decode(direction, text, shift)
 print("\n\n\n------------- oulkarshubhu@gmail.com --------------")
