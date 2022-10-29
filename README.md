@@ -30,3 +30,7 @@
 
 **[15) Hangman Game (Beginner) ](Hangman.py)**
 
+**[16) Encryption and decryption (Beginner) ](encrypt_decrypt.py)**
+
+**[17) Prime number checker (Beginner) ](prime_number_checker.py)**
+
