@@ -5,24 +5,28 @@ shift = int(input("Type the shift number:\n"))
 
 def encode_decode(direction, text, shift):
     if direction =="encode":
-        message = []
-        for i in text:
-            message += i
+        # message = []
+        # for i in text:
+        #     message += i
         new_position = 0
         encoder = []
-        for i in message:
-            new_position = int(alphabet.index(i)) + shift
-            encoder += alphabet[new_position]
-        print(f"{''.join(encoder)}")
-    elif direction == "decode":
-        message = []
         for i in text:
-            message += i
+            new_position = int(alphabet.index(i)) + shift
+            if new_position > 25:
+                new_position -= 26
+            encoder += alphabet[new_position]
+        print(f"Encoded Message: {''.join(encoder)}")
+    elif direction == "decode":
+        # message = []
+        # for i in text:
+        #     message += i
         old_position = 0
         decoder = []
-        for i in message:
+        for i in text:
             old_position = int(alphabet.index(i)) - shift
+            if old_position > 25:
+                old_position += 26
             decoder += alphabet[old_position]
-        print(f"{''.join(decoder)}")
+        print(f"Decoded Message: {''.join(decoder)}")
 
 encode_decode(direction,text,shift)
