@@ -40,9 +40,9 @@
 
 **[20) Auction program (beginner) ](Auction_program.py)**
 
-**[21) (beginner) ]()**
+**[21) Days in a month (beginner) ](days_in_month.py)**
 
-**[22) (beginner) ]()**
+**[22) calculator (beginner) ](calculator.py)**
 
 **[23) (beginner) ]()**
 
