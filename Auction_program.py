@@ -1,4 +1,6 @@
-from replit import clear
+import os
+clear = lambda: os.system('cls')
+
 book = {}
 condition = True
 while condition:
@@ -11,6 +13,7 @@ while condition:
         clear()
     else:
         condition = False
+        clear()
 
 value = []
 for key in book:
