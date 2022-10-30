@@ -40,3 +40,14 @@
 
 **[20) Auction program (beginner) ](Auction_program.py)**
 
+**[21) (beginner) ]()**
+
+**[22) (beginner) ]()**
+
+**[23) (beginner) ]()**
+
+**[24) (beginner) ]()**
+
+**[25) (beginner) ]()**
+
+**[26) (beginner) ]()**

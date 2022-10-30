@@ -1,5 +1,4 @@
 import os
-clear = lambda: os.system('cls')
 
 book = {}
 condition = True
@@ -10,10 +9,10 @@ while condition:
     ask = input("Do you have more Auctioneers? Yes/no ").lower()
     if ask == 'yes':
         condition = True
-        clear()
+        os.system('cls')
     else:
         condition = False
-        clear()
+        os.system('cls')
 
 value = []
 for key in book:
