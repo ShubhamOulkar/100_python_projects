@@ -21,9 +21,9 @@ operations = {
 keep_doing = True
 
 while keep_doing :
-    a = int(input("Enter number: "))
+    a = float(input("Enter number: "))
     sign = input("Choose operations +, -, * or / : ")
-    b = int(input("Enter number: "))
+    b = float(input("Enter number: "))
 
     value = operations[sign]
     function_call = value(a, b)
