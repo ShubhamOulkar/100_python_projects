@@ -36,3 +36,7 @@
 
 **[18) Caesar Cipher (beginner) ](caesar_cipher.py)**
 
+**[19) Dictionary (beginner) ](dictionary.py)**
+
+**[20) Auction program (beginner) ](Auction_program.py)**
+
