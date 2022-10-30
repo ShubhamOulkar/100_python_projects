@@ -29,7 +29,7 @@ while keep_doing :
     function_call = value(a, b)
     print(f"{a} {sign} {b} = {function_call}")
 
-    repe = input("Do you want to run calculator again? y/n ").lower()
+    repe = input("Do you want to run new calculator? y/n ").lower()
     if repe == "y":
         keep_doing = True
     else:
