@@ -44,7 +44,7 @@
 
 **[22) calculator (beginner) ](calculator.py)**
 
-**[23) (beginner) ]()**
+**[23) 21/Blackjack Gambling Game (beginner) ](blackjack21_game.py)**
 
 **[24) (beginner) ]()**
 
