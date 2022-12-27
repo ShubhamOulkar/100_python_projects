@@ -22,11 +22,11 @@ def guess_game(diff):
             print("Guess is TOO LARGE.\nGuess Again.")
         else:
             a = 12
-            print("Perfect Guess, you win ! ")
+            print(f"{gn} is Perfect Guess, you win ! ")
         if gn != rn:
             print(f"You have {diff - a} attempts remaining to guess the number.")
         if a == diff and gn != rn:
-            print("Your attempts are exhausted.\nYou lose ! ")
+            print(f"Your attempts are exhausted.\nYou lose !\nNumber was {rn}. ")
 
 if level == "easy" or level == "hard":
     guess_game(diff)
