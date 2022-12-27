@@ -46,7 +46,7 @@
 
 **[23) 21/Blackjack Gambling Game (beginner) ](blackjack21_game.py)**
 
-**[24) (beginner) ]()**
+**[24) Guess a Number?(beginner) ](guessNumbergame_day12.py)**
 
 **[25) (beginner) ]()**
 
