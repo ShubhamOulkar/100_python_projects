@@ -15,7 +15,7 @@ def coffeemachine(choice):
     change = round(payed - menu[choice]['cost'], 1)
 
     if payed < menu[choice]['cost']:
-        print("Sorry that's not enough money.. Money Refunded.")
+        print("Sorry that's not enough money. Money Refunded.")
     else:
         print(f"Here is ${change} change.")
 
