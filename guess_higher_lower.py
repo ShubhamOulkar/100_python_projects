@@ -2,10 +2,10 @@ import random
 from higherlower_art import logo, vs
 from higherlower_game_data import data
 print(logo)
-a = random.randint(0, 49)
+a = random.randint(0, 49)  # list of 50 dictionary
 b = random.randint(0, 49)
 if a == b:
-    b = random.randint(0,49)
+    b = random.randint(0, 49)
 ans = 0
 choice = "True"
 while choice == "True":
