@@ -5,8 +5,8 @@ print(logo)
 a = random.randint(0, 49)  # list of 50 dictionary
 b = random.randint(0, 49)
 
-ans = 0
-choice = "True"
+ans = 0  # counting score for correct guess
+choice = "True"   # Flag for while loop
 while choice == "True":
     if a == b:
         b = random.randint(0, 49)
@@ -21,13 +21,13 @@ while choice == "True":
     guess = input("\nWho has more followers? Choose A or B : ").lower()
 
     if insta_a > insta_b and guess == 'a':
-        a = a
+        a = a  # swaping variables
         b = random.randint(0, 49)
-        ans += 1
+        ans += 1  # counting score for correct guess
     elif insta_a < insta_b and guess == 'b':
-        a = b
+        a = b  # swaping variables
         b = random.randint(0, 49)
-        ans += 1
+        ans += 1  # counting score for correct guess
     else:
-        choice = "False"
-        print(f"Your score is {ans}.")
+        choice = "False"  # exit flag for while loop
+        print(f"Sorry thats wrong, Your score is {ans}.")
