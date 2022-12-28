@@ -1,6 +1,7 @@
 import random
 from higherlower_art import logo, vs
 from higherlower_game_data import data
+import os
 print(logo)
 a = random.randint(0, 49)  # list of 50 dictionary
 b = random.randint(0, 49)
@@ -21,12 +22,14 @@ while choice == "True":
     guess = input("\nWho has more followers? Choose A or B : ").lower()
 
     if insta_a > insta_b and guess == 'a':
-        a = a  # swaping variables
-        b = random.randint(0, 49)
+        os.system('clear')
+        a = a  # a remains as a
+        b = random.randint(0, 49)  # new random choice b
         ans += 1  # counting score for correct guess
     elif insta_a < insta_b and guess == 'b':
-        a = b  # swaping variables
-        b = random.randint(0, 49)
+        os.system('clear')
+        a = b  # swaping a variables as b
+        b = random.randint(0, 49)  # new random choice
         ans += 1  # counting score for correct guess
     else:
         choice = "False"  # exit flag for while loop
