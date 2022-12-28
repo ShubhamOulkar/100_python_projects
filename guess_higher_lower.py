@@ -4,11 +4,13 @@ from higherlower_game_data import data
 print(logo)
 a = random.randint(0, 49)  # list of 50 dictionary
 b = random.randint(0, 49)
-if a == b:
-    b = random.randint(0, 49)
+
 ans = 0
 choice = "True"
 while choice == "True":
+    if a == b:
+        b = random.randint(0, 49)
+
     print(f"\n Compare A -> Name: {data[a]['name']}, {data[a]['description']}, {data[a]['country']}")
     print(vs)
     print(f"\n Against b -> Name: {data[b]['name']}, {data[b]['description']}, {data[b]['country']}")
