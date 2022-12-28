@@ -15,9 +15,9 @@ def coffeemachine(choice):
     change = round(payed - menu[choice]['cost'], 1)
 
     if payed < menu[choice]['cost']:
-        print("Please pay full money.")
+        print("Sorry that's not enough money.. Money Refunded.")
     else:
-        print(f"Here is ${change}.\nHere is your {choice} . Enjoy!")
+        print(f"Here is ${change} change.")
 
 def resource(choice1):
     # resources check
@@ -25,24 +25,18 @@ def resource(choice1):
     milk_check = resources['milk'] - menu[choice1]['ingredients']['milk']
     coffee_check = resources['coffee'] - menu[choice1]['ingredients']['coffee']
 
-    key = ['water_check', 'milk_check', 'coffee_check']
+    key = ['water', 'milk', 'coffee']
     values = [water_check, milk_check, coffee_check]
 
     for i in range(0, 3):
         resources_check[key[i]] = values[i]
 
-    if resources_check['water_check'] < menu[choice1]['ingredients']['water']:
-        global  w
-        w = 'water'
-        return 'False'
-    elif resources_check['milk_check'] < menu[choice1]['ingredients']['milk']:
-        w = 'milk'
-        return 'False'
-    elif resources_check['coffee_check'] < menu[choice1]['ingredients']['coffee']:
-        w = 'coffee'
-        return 'False'
-    else:
-        return "True"
+    for item in resources_check:
+        if  resources_check[item] > resources[item]:
+            global w
+            w = item
+            return 'False'
+    return 'True'
 
 
 choice0 = input("What would you like? (espresso/latte/cappuccino) : ").lower()
