@@ -51,3 +51,5 @@
 **[25) Guess instagram followers (beginner) ](guess_higher_lower.py)**
 
 **[26) Coffee Machine (Intermediate) ](coffeemachine/coffeemachine.py)**
+
+**[27) Quiz Game Challenge (Intermediate)](Quiz_Game)**
