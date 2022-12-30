@@ -50,4 +50,4 @@
 
 **[25) Guess instagram followers (beginner) ](guess_higher_lower.py)**
 
-**[26) (beginner) ]()**
+**[26) Coffee Machine (Intermediate) ](coffeemachine/coffeemachine.py)**
