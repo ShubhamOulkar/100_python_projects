@@ -3,7 +3,7 @@ from turtle import Turtle, Screen
 turtle.colormode(255)
 import colorgram
 
-color_from_image = colorgram.extract('image.jpg', 30)
+color_from_image = colorgram.extract('Damien_Hirst_painting.jpg', 30)
 
 rgb_colors = []
 for color in color_from_image:
