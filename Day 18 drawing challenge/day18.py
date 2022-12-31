@@ -79,6 +79,26 @@ from turtle import Turtle, Screen
 #         random_path.forward(20)
 
 
+# # Make Spirograph
+# import random
+# spirograph = Turtle()
+# spirograph.speed("fastest")
+# turtle.colormode(255)
+#
+# def rgb_color():
+#     global rgb
+#     rgb = ()
+#     r = random.randint(0,255)
+#     g = random.randint(0,255)
+#     b = random.randint(0,255)
+#     rgb = (r, g, b)
+#     return rgb
+#
+# for i in range(100):
+#     spirograph.circle(100)
+#     spirograph.color(rgb_color())
+#     position = spirograph.heading()
+#     spirograph.setheading(position + i)
 
 my_screen = Screen()
 stop = my_screen.exitonclick()
