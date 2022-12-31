@@ -1,4 +1,3 @@
-import turtle
 from turtle import Turtle, Screen
 
 # square_turtle = Turtle()
@@ -102,16 +101,3 @@ from turtle import Turtle, Screen
 
 my_screen = Screen()
 stop = my_screen.exitonclick()
-
-
-
-
-
-
-
-
-
-
-
-
-
