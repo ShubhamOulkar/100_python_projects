@@ -53,3 +53,5 @@
 **[26) Coffee Machine (Intermediate) ](coffeemachine/coffeemachine.py)**
 
 **[27) Quiz Game Challenge (Intermediate)](Quiz_Game)**
+
+**[28) Damien Hirst Painting (Intermediate)](Day%2018%20drawing%20challenge/million_dollar_painting.py)**
