@@ -54,4 +54,4 @@
 
 **[27) Quiz Game Challenge (Intermediate)](Quiz_Game)**
 
-**[28) Damien Hirst Painting (Intermediate)](Day%2018%20drawing%20challenge/million_dollar_painting.py)**
+**[28) Damien Hirst Painting (Intermediate)](Day%2018%20drawing%20challenge/million_dollar_painting.py)** [Demo](Day%2018%20drawing%20challenge/Damien%20_Hirst_painting.gif)
