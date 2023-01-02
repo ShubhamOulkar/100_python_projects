@@ -57,3 +57,5 @@
 **[28) Damien Hirst Painting (Intermediate)](Day%2018%20drawing%20challenge/million_dollar_painting.py)** [*Demo*](Day%2018%20drawing%20challenge/Damien%20_Hirst_painting.gif)
 
 **[28) Turtle Race betting (Intermediate)](Day%2019/project.py)**  [*Demo*](Day%2019/turtle_race_game.gif)
+
+**[29) Snake Game (Intermediate)](Day%2020%20Snake%20Game/main.py)** [Demo](Day%2020%20Snake%20Game/snakegame.gif)
