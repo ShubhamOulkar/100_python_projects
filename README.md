@@ -54,10 +54,12 @@
 
 **[27) Quiz Game Challenge (Intermediate)](Quiz_Game)**
 
-**[28) Damien Hirst Painting (Intermediate)](Day%2018%20drawing%20challenge/million_dollar_painting.py)** [*Demo*](Day%2018%20drawing%20challenge/Damien%20_Hirst_painting.gif)
+**[28) Damien Hirst Painting (Intermediate)](Day%2018%20drawing%20challenge/million_dollar_painting.py)** [Demo Gif](Day%2018%20drawing%20challenge/Damien%20_Hirst_painting.gif)
 
-**[28) Turtle Race betting (Intermediate)](Day%2019/project.py)**  [*Demo*](Day%2019/turtle_race_game.gif)
+**[28) Turtle Race betting (Intermediate)](Day%2019/project.py)**  [Demo Gif](Day%2019/turtle_race_game.gif)
 
-**[29) Snake Game (Intermediate)](Day%2020%20Snake%20Game/main.py)** [Demo](Day%2020%20Snake%20Game/snakegame.gif)
+**[29) Snake Game (Intermediate)](Day%2020%20Snake%20Game/main.py)** [Demo Gif](Day%2020%20Snake%20Game/snakegame.gif)
 
-**[30) Pong Game (Intermediate)](pong_game/main.py)** [Demo](pong_game/pong.gif)
+**[30) Pong Game (Intermediate)](pong_game/main.py)** [Demo Gif](pong_game/pong.gif)
+
+**[31) Turtle crossing Road](turtle_crossing_road/main.py)** [Demo Gif](turtle_crossing_road/turtle_crossing_road%20-%20Made%20with%20Clipchamp.gif)
