@@ -17,10 +17,10 @@ score = Score()
 
 
 my_screen.listen()
-my_screen.onkey(paddle0.go_up, "Up")
-my_screen.onkey(paddle0.go_down, 'Down')
-my_screen.onkey(paddle1.go_up, "w")
-my_screen.onkey(paddle1.go_down, 's')
+my_screen.onkeypress(paddle0.go_up, "Up")
+my_screen.onkeypress(paddle0.go_down, 'Down')
+my_screen.onkeypress(paddle1.go_up, "w")
+my_screen.onkeypress(paddle1.go_down, 's')
 
 ok = True
 while ok:
