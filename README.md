@@ -59,3 +59,5 @@
 **[28) Turtle Race betting (Intermediate)](Day%2019/project.py)**  [*Demo*](Day%2019/turtle_race_game.gif)
 
 **[29) Snake Game (Intermediate)](Day%2020%20Snake%20Game/main.py)** [Demo](Day%2020%20Snake%20Game/snakegame.gif)
+
+**[30) Pong Game (Intermediate)](pong_game/main.py)** [Demo](pong_game/pong.gif)
