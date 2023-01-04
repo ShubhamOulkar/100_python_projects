@@ -13,8 +13,6 @@ turtle.shape(image)
 # turtle.onscreenclick(get_mouse_click_coor)
 #
 # turtle.mainloop()
-
-
 us_data = pandas.read_csv("50_states.csv")
 all_states = us_data['state'].to_list()
 
@@ -24,9 +22,10 @@ while len(guess_state) < 50:
 
     if  answer_state == "Exit":
         missing_state = []
-        for state in all_states:
-            if  state not in guess_state:
-                missing_state.append(state)
+        missing_state = [missing_state.append(state) for state in all_states if state not in guess_state]
+        # for state in all_states:
+        #     if  state not in guess_state:
+        #         missing_state.append(state)
         data_missing = pandas.DataFrame(missing_state)
         data_missing.to_csv("You_missed_these_states.csv")
         break
@@ -40,3 +39,4 @@ while len(guess_state) < 50:
         state.write(answer_state)
 
 turtle.mainloop()
+
