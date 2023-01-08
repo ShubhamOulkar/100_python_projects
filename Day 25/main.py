@@ -22,15 +22,16 @@
 
 
 # challenge 4: Create a dictionary for fahrenheit
-weather_celcius = {"monday": 12, "tuesday":55, "wednesday": 22, "thursday": 25, "friday":45, "saturday":66,"sunday":23}
+# weather_celcius = {"monday": 12, "tuesday":55, "wednesday": 22, "thursday": 25, "friday":45, "saturday":66,"sunday":23}
+#
+# #weather_fahrenheit = { key : (weather_celcius[key] * 9/5)+32 for key in weather_celcius}
+#
+# weather_fahrenheit = { key : (temp_c* 9/5)+32 for (key,temp_c) in weather_celcius.items()}
+#
+# print(weather_fahrenheit)
 
-#weather_fahrenheit = { key : (weather_celcius[key] * 9/5)+32 for key in weather_celcius}
 
-weather_fahrenheit = { key : (temp_c* 9/5)+32 for (key,temp_c) in weather_celcius.items()}
-
-print(weather_fahrenheit)
-
-
+#
 
 
 
