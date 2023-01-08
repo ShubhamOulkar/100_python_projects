@@ -14,16 +14,21 @@
 # result = [num for  num in number if num % 2 == 0 ]
 # print(result)
 
-# challenge 3: How many letters from each word in a sentence?
-sentence ="What is the airspeed velocity of an unladen swallow?"
-word_split = sentence.split(" ")
-result = {word : len(word) for word in word_split }
-print(result)
+# # challenge 3: How many letters from each word in a sentence?
+# sentence ="What is the airspeed velocity of an unladen swallow?"
+# word_split = sentence.split(" ")
+# result = {word : len(word) for word in word_split }
+# print(result)
 
 
+# challenge 4: Create a dictionary for fahrenheit
+weather_celcius = {"monday": 12, "tuesday":55, "wednesday": 22, "thursday": 25, "friday":45, "saturday":66,"sunday":23}
 
+#weather_fahrenheit = { key : (weather_celcius[key] * 9/5)+32 for key in weather_celcius}
 
+weather_fahrenheit = { key : (temp_c* 9/5)+32 for (key,temp_c) in weather_celcius.items()}
 
+print(weather_fahrenheit)
 
 
 
