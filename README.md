@@ -62,4 +62,6 @@
 
 **[30) Pong Game (Intermediate)](pong_game/main.py)** [Demo Gif](pong_game/pong.gif)
 
-**[31) Turtle crossing Road](turtle_crossing_road/main.py)** [Demo Gif](turtle_crossing_road/turtle_crossing_road%20-%20Made%20with%20Clipchamp.gif)
+**[31) Turtle crossing Road (Intermediate)](turtle_crossing_road/main.py)** [Demo Gif](turtle_crossing_road/turtle_crossing_road%20-%20Made%20with%20Clipchamp.gif)
+
+**[32) GUI for Miles to kilometer converter (Intermediate)](GUI%20with%20TKinter/GUI_milestoKilometer_converter.py)** 
