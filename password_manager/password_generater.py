@@ -40,7 +40,7 @@ def password_generate():
         password = words + numb + character
         random.shuffle(password)
         show_password.delete(0, END)
-        show_password.insert(0, password)
+        show_password.insert(0, "".join(password))
 
 
     generate_password_button = Button(text="Generate password", command= generater)
