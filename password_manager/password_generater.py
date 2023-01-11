@@ -47,4 +47,4 @@ def password_generate():
     generate_password_button.grid(column=1, row=12, columnspan=2)
 
     show_password = Entry(width=25)
-    show_password.grid(columnspan=2, column=1, row=1)
+    show_password.grid(columnspan=2, column=1, row=13)

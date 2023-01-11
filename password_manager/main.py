@@ -21,16 +21,19 @@ def save_data():
     web = website_entry.get()
     user = Username_entry.get()
     pas = password_entry.get()
-    table = f'| {web} |' +f' {user} ' + f'| {pas} |\n'
 
-    messagebox.askokcancel(title=web, message=f"These are the details entered: \nEmail: {user} \nPassword: {pas}")
+    if len(web) == 0 or len(user) == 0 or len(pas) == 0:
+        messagebox.askretrycancel(title= 'Empty Boxes', message= "Some fields are empty. \n Please check !")
+    else:
+        table = f'| {web} |' + f' {user} ' + f'| {pas} |\n'
+        messagebox.askokcancel(title=web, message=f"These are the details entered: \nEmail: {user} \nPassword: {pas}")
 
-    with open('password_manager.txt', mode= 'a') as  file:
-        file.write(table)
+        with open('password_manager.txt', mode= 'a') as  file:
+            file.write(table)
 
-    website_entry.delete(0, END)
-    password_entry.delete(0, END)
-    Username_entry.delete(0, END)
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
+            Username_entry.delete(0, END)
 
 
 
