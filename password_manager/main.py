@@ -129,22 +129,27 @@ def password_generate():
     q3_entry = Entry(width=5)
     q3_entry.grid(column=2, row=10)
 
-
     def generater():
         num_letters = int(q1_entry.get())
         num_numbers = int(q2_entry.get())
         num_char = int(q3_entry.get())
 
-        words = random.sample(letters, num_letters)
-        numb = random.sample(numbers, num_numbers)
-        character = random.sample(symbols, num_char)
-
-        password = words + numb + character
-        random.shuffle(password)
-        show_password.delete(0, END)
-        password_entry.delete(0, END)
-        show_password.insert(0, "".join(password))
-        password_entry.insert(0, "".join(password))
+        try :
+            words = random.sample(letters, num_letters)
+            numb = random.sample(numbers, num_numbers)
+            character = random.sample(symbols, num_char)
+        except ValueError:
+            messagebox.showinfo(title='Value Error', message= "Input valid numbers.")
+            q1_entry.delete(0, END)
+            q2_entry.delete(0, END)
+            q3_entry.delete(0, END)
+        else:
+            password = words + numb + character
+            random.shuffle(password)
+            show_password.delete(0, END)
+            password_entry.delete(0, END)
+            show_password.insert(0, "".join(password))
+            password_entry.insert(0, "".join(password))
 
 
     generate_password_button = Button(text="Generate password", command= generater)
