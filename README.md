@@ -69,3 +69,5 @@
 **[33) Timer Application (Intermediate)](Day%2028/main0.py)**
 
 **[34) Password Manager (Intermediate)](password_manager/main.py)**
+
+**[35) Language Flash Card Project (Intermediate)](flash-card-project/main.py)** (Need to revise)
