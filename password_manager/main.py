@@ -114,19 +114,19 @@ def password_generate():
     q1.grid(column=1, row=8)
 
     q1_entry = Entry(width=5)
-    q1_entry.grid(column=2, row=8)
+    q1_entry.grid(column=3, row=8)
 
     q2 = Label(text=f"\nHow many numbers would you like in your password?\n{numbers}", font=('Arial', 10))
     q2.grid(column=1, row=9)
 
     q2_entry = Entry(width=5)
-    q2_entry.grid(column=2, row=9)
+    q2_entry.grid(column=3, row=9)
 
     q3 = Label(text=f"\nHow many symbols wold you like in your password? \n{symbols}", font=('Arial', 10))
     q3.grid(column=1, row=10)
 
     q3_entry = Entry(width=5)
-    q3_entry.grid(column=2, row=10)
+    q3_entry.grid(column=3, row=10)
 
     def generater():
         num_letters = int(q1_entry.get())
