@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import  messagebox
 import random
+import json
 
 # UI setup
 window = Tk()
@@ -22,19 +23,55 @@ def save_data():
     user = Username_entry.get()
     pas = password_entry.get()
 
+    with open('password_manager.json','r') as file:
+        data =json.load(file)
+
+    if web in data:
+        messagebox.showinfo(title='Website Exist', message='Already present in data base')
+
+    table = {
+                web: {
+                    'username': user,
+                    'password': pas,
+                        }
+                     }
+
+
     if len(web) == 0 or len(user) == 0 or len(pas) == 0:
         messagebox.askretrycancel(title= 'Empty Boxes', message= "Some fields are empty. \n Please check !")
     else:
-        table = f'| {web} |' + f' {user} ' + f'| {pas} |\n'
-        messagebox.askokcancel(title=web, message=f"These are the details entered: \nEmail: {user} \nPassword: {pas}")
+        try :
+            with open('password_manager.json', mode= 'r') as  file:
+                data = json.load(file) # loading old data
+        except FileNotFoundError :
+            with open('password_manager.json', 'w') as file:
+                json.dump(table, file, indent=4)
+        else:
+            data.update(table) # updating lod data with new data
+            with open('password_manager.json', 'w') as file:
+                json.dump(data, file, indent= 4) # saving updated data
 
-        with open('password_manager.txt', mode= 'a') as  file:
-            file.write(table)
 
             website_entry.delete(0, END)
             password_entry.delete(0, END)
             Username_entry.delete(0, END)
 
+def website_search():
+    website = website_entry.get()
+    try :
+        with open("password_manager.json","r") as file :
+            web_data = json.load(file)
+    except FileNotFoundError:
+        messagebox.showinfo(title='Error', message="No data file found.")
+    else:
+        if website == "":
+            messagebox.showinfo(title='Empty Space', message='Write website name')
+        elif website in web_data:
+            email = web_data[website]['username']
+            password = web_data[website]['password']
+            messagebox.showinfo(title=website, message=f"Username: {email} \n Password: {password}")
+        else:
+            messagebox.showinfo(title='Website is not Present', message='Data is not present in file.')
 
 
 website_label = Label(text='Website name:')
@@ -63,6 +100,8 @@ generatePassword_button.grid(column= 1, row= 5)
 add_button = Button(text='Add to a list', width= 45, command=save_data)
 add_button.grid(column=1, row=6, columnspan=2)
 
+search_button = Button(text='Search Website', width=15, command=website_search)
+search_button.grid(column=3, row=1)
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
            'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
