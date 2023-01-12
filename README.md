@@ -71,3 +71,5 @@
 **[34) Password Manager (Intermediate)](password_manager/main.py)**
 
 **[35) Language Flash Card Project (Intermediate)](flash-card-project/main.py)** (Need to revise)
+
+**[36) Automatic Bithday mail sender (Intermediate)](send_email/main.py)**
