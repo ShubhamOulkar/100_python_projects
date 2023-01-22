@@ -76,3 +76,4 @@
 
 **[37) ISS Tracking (Intermediate)](ISS_tracking/main.py)**
 
+**[38) Quizz Application (Intermediate)](quizzAPP/main.py)** [Demo Gif](quizzAPP/quizz_app.gif)
