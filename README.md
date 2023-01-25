@@ -80,3 +80,4 @@
 
 **[39) AQI and weather SMS notifire](weatherNOTIFIER/main.py)**
 
+**[40) Tesla Stock Price and news nitifier](StockPriceProject/main.py)**[SMS image](StockPriceProject/Screenshot_20230125-081614_Messages.jpg)
