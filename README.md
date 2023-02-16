@@ -82,4 +82,4 @@
 
 **[40) Tesla Stock Price and news nitifier](StockPriceProject/main.py)**[SMS image](StockPriceProject/Screenshot_20230125-081614_Messages.jpg)
 
-**[41) Coding Habit Tracker](habit_tracker/habit.py)**
+**[41) Coding Habit Tracker](habit_tracker/habit.py)**(Not Hosted on a web)
