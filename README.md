@@ -83,3 +83,9 @@
 **[40) Tesla Stock Price and news nitifier](StockPriceProject/main.py)**[SMS image](StockPriceProject/Screenshot_20230125-081614_Messages.jpg)
 
 **[41) Coding Habit Tracker](habit_tracker/habit.py)**(Not Hosted on a web)
+
+**[42) Hacker News web scraping](web-scraping/hackers-news/main.py)**
+
+**[43) Empire all time 100 movies web scraping](web-scraping/empire-100movie/empire_100movies.ipynb)** [100 Movies list](web-scraping/empire-100movie/100_movies.txt)
+
+**[44) ]()**
