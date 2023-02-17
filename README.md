@@ -86,6 +86,6 @@
 
 **[42) Hacker News web scraping](web-scraping/hackers-news/main.py)**
 
-**[43) Empire all time 100 movies web scraping](web-scraping/empire-100movie/empire_100movies.ipynb)** [100 Movies list](web-scraping/empire-100movie/100_movies.txt)
+**[43) Empire all time 100 movies web scraping:](web-scraping/empire-100movie/empire_100movies.ipynb)** [100 Movies list](web-scraping/empire-100movie/100_movies.txt)
 
-**[44) ]()**
+**[44) Custom Spotify song playlist by year:](web-scraping/spotify-song-list/scratch.py)** [Playlist Image](web-scraping/spotify-song-list/spotify-song-list.png) [songlist from billboard:](web-scraping/spotify-song-list/2023-02-17_songs_play_list.txt)
