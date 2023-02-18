@@ -4,25 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+    .attribution { position: absolute;margin-top: 80%;font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .center-square{height: 50%;
+      width: 30%;
+      background-color: hsl(0, 0%, 100%);
+      position: absolute;
+      margin: 20% 30% 20% 30%;}
   </style>
 </head>
 <body>
+  <div class="center-square">
+    <img src="images/image-qr-code.png" alt="QR_code_png">
+  </div>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://shubhamoulkar.github.io/cv/" target="_blank">Shubham Oulkar</a>.
   </div>
 </body>
 </html>
