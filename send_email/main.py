@@ -1,7 +1,7 @@
 # import smtplib
 #
-# my_email = 'oulkarshubhu@gmail.com'
-# password = 'cnuahfowmamtbcov'
+# my_email = 
+# password = 
 #
 # import datetime as dt
 #
