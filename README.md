@@ -92,4 +92,6 @@
 
 **[45) Amazon Price Notifier](web-scraping/amazon-price-tracker/amazon_price_tracker.ipynb)**
 
+**[46) Selenium Web scraping projects](web-scraping/selenium)**
+
 
