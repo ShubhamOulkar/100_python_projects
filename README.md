@@ -94,4 +94,4 @@
 
 **[46) Selenium Web scraping projects](web-scraping/selenium)**
 
-
+**[47) Automate job application on LinkedIn](web-scraping/selenium/linkedin/linkedin.py)**
