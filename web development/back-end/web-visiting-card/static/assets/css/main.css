@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #0DB387;
 		}
 
 	strong, b {
@@ -781,7 +781,7 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
+		color: 495FB5;
 		cursor: default;
 		text-align: center;
 	}
