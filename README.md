@@ -97,9 +97,11 @@
 
 **[47) Automate job application on LinkedIn](web-scraping/linkedin/linkedin.py)**
 
-**[48) Guess a number on webpage url (URL parsing)](web%20development/back-end/higher-lower/server.py)**  [Project GIF](web%20development/back-end/higher-lower/higher-lower.gif)
+**[48) Guess a number on webpage url (URL parsing)](web%20development/back-end/higher-lower/server.py)**  [| Project GIF |](web%20development/back-end/higher-lower/higher-lower.gif)
 
-**[49) CV Web site](https://github.com/ShubhamOulkar/cv)** [VISIT](https://shubhamoulkar.github.io/cv/)
+**[49) CV Web site](https://github.com/ShubhamOulkar/cv)** [| VISIT |](https://shubhamoulkar.github.io/cv/)
 
-**[50) Web based visiting card](https://shubhamoulkar.github.io/cv/)** [VISIT](https://shubhamoulkar.github.io/visit-me-here/)
+**[50) Web based visiting card](https://shubhamoulkar.github.io/cv/)** [| VISIT |](https://shubhamoulkar.github.io/visit-me-here/)
+
+**[51) Guess age and gender using API's](web%20development/back-end/challenge/challengeON-URL-parsing.py)** [| Project Gif |](web%20development/back-end/challenge/guess-age-gender.gif)
 
