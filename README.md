@@ -95,3 +95,7 @@
 **[46) Selenium Web scraping projects](web-scraping/selenium)**
 
 **[47) Automate job application on LinkedIn](web-scraping/linkedin/linkedin.py)**
+
+**[48) Guess a number on webpage url (URL parsing)](web%20development/back-end/higher-lower/server.py)**  [Project GIF](web%20development/back-end/higher-lower/higher-lower.gif)
+
+
