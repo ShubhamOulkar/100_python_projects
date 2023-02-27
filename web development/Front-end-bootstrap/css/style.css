@@ -1,0 +1,189 @@
+.hover-effect:hover {
+    color: #66BFBF;
+}
+
+#navigation-title {
+    background-color: rgb(198, 242, 224);
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#testimonials {
+    background-color: rgb(198, 242, 224);
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+#pricing {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+}
+
+#cta {
+    background-color: rgb(198, 242, 224);
+    padding-top: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: rgb(198, 242, 224);
+    border-color: rgb(97, 179, 185);
+    color: black;
+    margin: 7%;
+}
+
+.btn {
+    background-color: rgb(198, 242, 224);
+    border-color: rgb(97, 179, 185);
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(97, 179, 185);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-nav {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Ubuntu";
+    font-size: medium;
+    font-weight: 500;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    transform: rotate(45deg);
+    height: max-content;
+    width: max-content;
+    margin-bottom: 50px;
+    /* position: relative;
+    z-index: -1; */
+}
+
+#features {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    /* position: relative;
+    z-index: 1 */
+}
+
+#footer {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+}
+
+.fa-brands {
+    color: black;
+}
+
+.fa-brands:hover {
+    color: rgb(19, 65, 229);
+}
+
+.fa-solid {
+    color: #66BFBF;
+    margin-bottom: 1rem;
+}
+
+.fa-solid:hover {
+    color: rgb(54, 138, 144);
+}
+
+
+h2 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+.test-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card {
+    margin: 3% 3%;
+    max-width: 18rem;
+    border-width: 0;
+    border-color: rgb(198, 242, 224);
+}
+
+.col {
+    text-align: center;
+}
+
+.footer-links {
+    padding: 2%;
+}
+
+@media(max-width:600px) {
+    h1 {
+        font-family: 'Montserrat';
+        line-height: 1.5;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0deg);
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Montserrat';
+        line-height: 1;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .download-button {
+        margin: 5% 3% 5% 28%;
+    }
+}
