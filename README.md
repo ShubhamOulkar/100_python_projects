@@ -111,7 +111,7 @@
 
 **[54) WTForms](web%20development/Front-end-bootstrap/WTForms/server.py)**
 
-**[55) Coffee and Table restaurants website (Flask-bootstrap WTForms used)](web%20development/Front-end-bootstrap/coffeeandtable/main.py)**
+**[55) Coffee and Table restaurants website (Flask-bootstrap WTForms used)](web%20development/Front-end-bootstrap/coffeeandtable/main.py)**[| GIF |](web%20development/Front-end-bootstrap/coffeeandtable/Cafe2023-03-01%2019-13-16.gif)
 
 
 
