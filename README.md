@@ -107,3 +107,19 @@
 
 **[52) Website building using bootstrap](web%20development/Front-end-bootstrap/index.html)**[| GIF |](web%20development/Front-end-bootstrap/Lookshaa%20Shine%20-%20Brave%202023-02-27%2020-24-23.gif)
 
+**[53)  Write Blog's web design using flask-bootstrap](web%20development/Front-end-bootstrap/Blogs%20Heavy%20Website/server.py)**
+
+**[54) WTForms](web%20development/Front-end-bootstrap/WTForms/server.py)**
+
+**[55) Coffee and Table restaurants website (Flask-bootstrap WTForms used)](web%20development/Front-end-bootstrap/coffeeandtable/main.py)**
+
+
+
+
+
+
+
+
+
+
+
