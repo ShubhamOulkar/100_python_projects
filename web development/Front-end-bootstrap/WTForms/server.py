@@ -6,7 +6,7 @@ from flask_bootstrap import Bootstrap
 import smtplib
 
 my_email = 'oulkarshubhu@gmail.com'
-password = 'loadvnqrbxfcykos'
+password = 'password'
 
 
 class LoginForm(FlaskForm):

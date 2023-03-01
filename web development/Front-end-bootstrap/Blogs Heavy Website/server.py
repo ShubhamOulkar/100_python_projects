@@ -3,7 +3,7 @@ import datetime
 import smtplib
 
 my_email = 'oulkarshubhu@gmail.com'
-password = 'loadvnqrbxfcykos'
+password = 'password'
 
 now_year = datetime.datetime.now().year
 
