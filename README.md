@@ -113,6 +113,7 @@
 
 **[55) Coffee and Table restaurants website (Flask-bootstrap WTForms used)](web%20development/Front-end-bootstrap/coffeeandtable/main.py)** <a href="web%20development/Front-end-bootstrap/coffeeandtable/image.md">GIF</a>
 
+**[56) Heavy Blogs theme web app project](https://heavy-blog.onrender.com/)**
 
 
 
